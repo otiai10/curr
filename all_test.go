@@ -24,7 +24,7 @@ func TestLine(t *testing.T) {
 
 func TestFunc(t *testing.T) {
 	Because(t, "Func() should provide current function name", func(t *testing.T) {
-		Expect(t, Func()).ToBe("func·002")
+		Expect(t, Foobaa()).ToBe("Foobaa")
 	})
 	Expect(t, Func()).ToBe("TestFunc")
 }
@@ -45,4 +45,8 @@ func TestDir(t *testing.T) {
 	Because(t, "Dir() should provide current directory", func(t *testing.T) {
 		Expect(t, Dir()).ToBe(pkgpath)
 	})
+}
+
+func Foobaa() string {
+	return Func()
 }

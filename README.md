@@ -1,9 +1,13 @@
 curr
 =====
 
+[![CircleCI](https://circleci.com/gh/otiai10/curr.svg?style=svg)](https://circleci.com/gh/otiai10/curr)
+[![codecov](https://codecov.io/gh/otiai10/curr/branch/master/graph/badge.svg)](https://codecov.io/gh/otiai10/curr)
+[![WTFPL](https://img.shields.io/badge/License-WTFPL-orange.svg)](http://www.wtfpl.net/)
+
 Current file and dir privider for Golang.
 
-Sugar for [runtime](https://golang.org/pkg/runtime/).
+Just a sugar for [runtime](https://golang.org/pkg/runtime/).
 
 ```go
 import "curr"
