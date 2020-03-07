@@ -3,7 +3,9 @@ curr
 
 [![CircleCI](https://circleci.com/gh/otiai10/curr.svg?style=svg)](https://circleci.com/gh/otiai10/curr)
 [![codecov](https://codecov.io/gh/otiai10/curr/branch/master/graph/badge.svg)](https://codecov.io/gh/otiai10/curr)
-[![WTFPL](https://img.shields.io/badge/License-WTFPL-orange.svg)](http://www.wtfpl.net/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/curr)](https://goreportcard.com/report/github.com/otiai10/curr)
+[![GoDoc](https://godoc.org/github.com/otiai10/curr?status.svg)](https://godoc.org/github.com/otiai10/curr)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Current file and dir privider for Golang.
 
