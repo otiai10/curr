@@ -6,7 +6,7 @@ cloned from github.com/otiai10/curr on 2021-04-23
 [![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/curr)](https://goreportcard.com/report/github.com/otiai10/curr)
 [![GoDoc](https://godoc.org/github.com/otiai10/curr?status.svg)](https://godoc.org/github.com/otiai10/curr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+ 
 Current file and dir privider for Golang.
 
 Just a sugar for [runtime](https://golang.org/pkg/runtime/).
