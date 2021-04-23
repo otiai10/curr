@@ -6,7 +6,7 @@ import (
 
 	. "github.com/enthor/mint"
 )
- 
+  
 var pkgpath string
 
 func init() {

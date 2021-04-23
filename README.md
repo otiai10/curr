@@ -8,7 +8,7 @@ cloned from github.com/otiai10/curr on 2021-04-23
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
 Current file and dir privider for Golang.
-
+  
 Just a sugar for [runtime](https://golang.org/pkg/runtime/).
 
 ```go
