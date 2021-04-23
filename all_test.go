@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/otiai10/mint"
+	. "github.com/enthor/mint"
 )
 
 var pkgpath string
