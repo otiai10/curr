@@ -1,7 +1,7 @@
 curr
 =====
 
-[![CircleCI](https://circleci.com/gh/otiai10/curr.svg?style=svg)](https://circleci.com/gh/otiai10/curr)
+[![Go](https://github.com/otiai10/curr/actions/workflows/go.yml/badge.svg)](https://github.com/otiai10/curr/actions/workflows/go.yml)
 [![codecov](https://codecov.io/gh/otiai10/curr/branch/master/graph/badge.svg)](https://codecov.io/gh/otiai10/curr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/curr)](https://goreportcard.com/report/github.com/otiai10/curr)
 [![GoDoc](https://godoc.org/github.com/otiai10/curr?status.svg)](https://godoc.org/github.com/otiai10/curr)
