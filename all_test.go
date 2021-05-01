@@ -10,15 +10,17 @@ import (
 var pkgpath string
 
 func init() {
-	gopath := os.Getenv("GOPATH")
-	pkgpath = gopath + "/src/github.com/otiai10/curr"
+	pkgpath = os.Getenv("GITHUB_WORKSPACE")
+	if pkgpath == "" {
+		pkgpath = os.Getenv("GOPATH") + "/src/github.com/otiai10/curr"
+	}
 }
 
 func TestLine(t *testing.T) {
 	Because(t, "Line() should provide current line", func(t *testing.T) {
-		Expect(t, Line()).ToBe(19)
-		// <- line 20
 		Expect(t, Line()).ToBe(21)
+		// <- line 22
+		Expect(t, Line()).ToBe(23)
 	})
 }
 
