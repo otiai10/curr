@@ -6,6 +6,7 @@ curr
 [![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/curr)](https://goreportcard.com/report/github.com/otiai10/curr)
 [![GoDoc](https://godoc.org/github.com/otiai10/curr?status.svg)](https://godoc.org/github.com/otiai10/curr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fotiai10%2Fcurr.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fotiai10%2Fcurr?ref=badge_shield)
 
 Current file and dir privider for Golang.
 
@@ -29,3 +30,7 @@ fn := curr.Func()
 // basename(__FILE__)
 b := curr.Basename()
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fotiai10%2Fcurr.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fotiai10%2Fcurr?ref=badge_large)
